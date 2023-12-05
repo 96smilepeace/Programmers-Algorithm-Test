@@ -1,0 +1,1 @@
+const solution = (my_string) => [...my_string].filter(v => !["a","e","u","i","o"].includes(v)).join("");
