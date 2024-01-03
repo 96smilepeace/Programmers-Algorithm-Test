@@ -1,0 +1,1 @@
+const solution = (n) => Array.from({ length: n }, (_, idx) => idx + 1).filter(v => v%2!==0);
